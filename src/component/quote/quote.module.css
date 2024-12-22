@@ -1,0 +1,29 @@
+.quoteContainer{
+    margin: 10rem auto;
+}
+
+.quoteCard{
+    max-width: 1280px;
+    width: 90%;
+    height: auto;
+    padding: 2rem;
+    margin: 2rem auto;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.quoteCard p:first-child{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+}
+
+.quoteCard p{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 400;
+    color: grey;
+}

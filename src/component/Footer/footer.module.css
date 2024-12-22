@@ -1,0 +1,47 @@
+.footerSection{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(242, 242, 242);
+}
+
+.footerContent{
+    max-width: 1080px;
+    width: 90%;
+    height: 100%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+}
+
+.footerMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    color: rgb(67, 66, 66);
+    flex-wrap: wrap;
+    
+}
+.footerIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5em;
+    color: rgb(48, 48, 48);
+
+    
+}
+.footerIcon i:hover,.footerMenu p:hover{
+    color: rgb(96, 96, 96);
+    cursor: pointer;
+}
+.logoIspum{
+    width: 15rem;
+}
